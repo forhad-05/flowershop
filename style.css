@@ -186,20 +186,84 @@ main {
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     margin-top: 220px;
-    margin-left: 210px ;
+    margin-left: 210px;
 }
-.service-info{
+
+.service-info {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 170px;
     padding-top: 70px;
 }
+
 .service-info-each img {
     padding-left: 80px;
-   
+
 }
 
-#serv-img3{
-  padding-left: 40px;
+#serv-img3 {
+    padding-left: 40px;
+}
+
+/*dicount section */
+.discount {
+    width: 1900px;
+    height: 620px;
+    margin-top: 150px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+}
+
+.discount-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#discount-img {
+    width: 318px;
+    height: 420px;
+    padding-left: 300px;
+    padding-top: 100px;
+
+}
+
+.discount-title h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.discount-span {
+    color: #E55473;
+}
+
+.discount-title p {
+    width: 590px;
+    position: relative;
+    left: -30px;
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.sign-btn {
+    display: inline-flex;
+    margin-left: 175px;
+    margin-top: 30px;
+    padding: 20px 43px;
+    align-items: flex-start;
+    gap: 10px;
+    border-radius: 8px;
+    background: #E55473;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
+    border: #E55473;
+
 }
