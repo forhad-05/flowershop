@@ -72,7 +72,7 @@ header {
 
 main {
     width: 1800px;
-    height: 4867px;
+    height: 3450px;
     background: #FFF;
 }
 
@@ -347,4 +347,45 @@ main {
     font-size: 20px;
     font-weight: 700px;
     border: #E55473;
+}
+
+footer {
+    width: 1922px;
+    height: 449px;
+    flex-shrink: 0;
+    background: #111010;
+}
+
+footer h2 {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    padding-top: 128px;
+}
+footer span{
+    color: #E55473;
+}
+footer>p {
+    width: 625px;
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin-left: 650px;
+
+}
+
+footer h5 {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
