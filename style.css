@@ -77,7 +77,8 @@ main {
 }
 
 /*flower feature */
-.featured-flower h2 ,.instagram h2{
+.featured-flower h2,
+.instagram h2 {
     color: #272727;
     text-align: center;
     font-family: Lato;
@@ -90,7 +91,8 @@ main {
 
 }
 
-.featured-flower>p,.instagram>p{
+.featured-flower>p,
+.instagram>p {
     width: 594px;
     height: 30px;
     color: rgba(39, 39, 39, 0.60);
@@ -273,9 +275,11 @@ main {
     margin-top: 120px;
 }
 
-.instagram-img{
+.instagram-img {
     padding-top: 70px;
     padding-left: 220px;
     display: flex;
     gap: 30px;
 }
+
+/*latest deals section*/
