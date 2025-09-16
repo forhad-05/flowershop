@@ -1,9 +1,10 @@
 * {
     font-family: Lato;
+    max-width: 1895px;
 }
 
 header {
-    width: 1900px;
+    width: 1880px;
     height: 850px;
     flex-shrink: 0;
     background: rgba(229, 84, 115, 0.10);
@@ -19,7 +20,7 @@ header {
     width: 635px;
     height: 800px;
     flex-shrink: 0;
-    padding-left: 400px;
+    padding-left: 300px;
     margin-bottom: -40px;
 }
 
